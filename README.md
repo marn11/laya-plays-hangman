@@ -1,9 +1,9 @@
-# laya-plays-hangman
+# ai-plays-hangman
 
 A visually polished, framework-free Hangman game, built as a testbed for
 [Laya](https://huggingface.co/convaiinnovations/laya) (a non-generative,
 calibrated "System 1" decision model) to play letter-by-letter -- the same
-pattern as [laya-plays-subway-surfers](https://github.com/marn11/laya-plays-subway-surfers),
+pattern as [ai-plays-endless-runner](https://github.com/marn11/ai-plays-endless-runner),
 applied to a game where every decision is a discrete, turn-based choice
 instead of a real-time reflex.
 
@@ -58,6 +58,6 @@ will carry as context, per the brief for this project.
 Laya hasn't played a single round yet. The plan, mirroring the
 subway-surfers pipeline: a zero-shot baseline first (does Laya's base
 checkpoint do anything sensible with "guessed letters" + "remaining
-letters" + a masked word as context?), then decide whether fine-tuning is
-even necessary for a task this constrained before building a training
-pipeline for it.
+letters" + a masked word as context?), then decide whether a
+specialized training pass is even necessary for a task this constrained
+before building one.
